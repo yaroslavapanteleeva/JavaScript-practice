@@ -159,3 +159,66 @@ for (let i = 1; i < 8; i++) {
     a++;
 }
 
+let functionNum = 20;
+
+function showFirstMessage(text) {
+    console.log(text);
+    //let functionNum = 10;
+    console.log(functionNum);
+}
+
+showFirstMessage('Аргументы работают');
+console.log(functionNum);
+
+function calc(a, b) {
+    return (a + b);
+}
+
+console.log(calc(4, 3));
+console.log(calc(10, 3));
+
+function ret() {
+    let num = 50;
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+let logger = function () {
+    console.log("Hello");
+};
+
+logger();
+
+const calcl = (a, b) => a + b;
+
+const str = 'test';
+/* const array = [1, 2, 3];
+console.log(array.length); */
+
+//console.log(str[2]);
+
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("r"));
+
+const logg = "Hello, world";
+
+console.log(logg.substr(1, 5));
+
+const numb = 12.2;
+console.log(Math.round(numb));
+
+const test = "12.2px";
+
+console.log(parseFloat(test));
+
+
+
+
+
+
